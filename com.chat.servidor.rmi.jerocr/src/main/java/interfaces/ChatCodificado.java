@@ -6,7 +6,7 @@ import java.time.LocalDateTime;
 
 public interface ChatCodificado extends Remote {
 	
-	public void añadirMensaje(String nombre, String mensaje) throws RemoteException;
+	public void aÃ±adirMensaje(String nombre, String mensaje) throws RemoteException;
 
 	public String recuperarMensajes() throws RemoteException;
 

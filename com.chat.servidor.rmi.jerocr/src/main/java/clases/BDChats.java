@@ -18,7 +18,7 @@ public class BDChats extends UnicastRemoteObject implements ChatCodificado {
 	}
 
 	@Override
-	public void añadirMensaje(String nombre, String mensaje) throws RemoteException {
+	public void aÃ±adirMensaje(String nombre, String mensaje) throws RemoteException {
 		Chat c = new Chat(nombre, mensaje, LocalDateTime.now().withNano(0));
 
 		mensajes.put(c.getFecha(), c);
